@@ -41,6 +41,7 @@ $(document).ready(function() {
          },parseInt($("#session-length").html())*60*1000+1000);
     });
     
+    //following method is used to show session or break countdown
     function timer(timelength){
           if(timelength%60>=10){
             $("#countdown-timer").html(Math.floor(timelength/60)+":"+timelength%60);
@@ -50,6 +51,7 @@ $(document).ready(function() {
            }
        }
       
+      //Following method is used to reset the clock
       $("#reset").click(function(){
         console.log("Session: "+clockstatus.insession);
         console.log("Break: "+clockstatus.inbreak);
