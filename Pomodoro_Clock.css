@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(37, 123, 132);
+    color:white;
+    font-family:"Comic Sans MS";
+  }
+  .break-and-session{
+    display:grid;
+    grid-template-columns:auto auto;
+    margin:10px;
+  }
+  .break{
+    text-align:right;
+    margin-right:20px;
+  }
+  .session{
+    text-align:left;
+    margin-left:20px;
+  }
+  .show-countdown{
+    border-radius:45px;
+    border:5px solid #13353A;
+    margin:auto auto 10px auto;
+    width:250px;
+    height:150px;
+  }
+  h2{
+    display:inline;
+  }
