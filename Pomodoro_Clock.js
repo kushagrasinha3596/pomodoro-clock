@@ -11,6 +11,8 @@ $(document).ready(function() {
     }
     var audio = new Audio("https://drive.google.com/uc?export=download&id=1ErJf6TaH0AntVjaUsjpIgMhfl03oLy0i");
     $("#countdown-timer").html($("#session-length").html()+":00");
+    
+    //Added comment for start button click event
     $("#start").click(function(){
     $("#increase-break-length,#decrease-break-length,#increase-session-length,#decrease-session-length,#start").prop("disabled",true);
       clockstatus.insession=true;
